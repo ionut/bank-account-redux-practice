@@ -5,7 +5,6 @@ import App from './App.jsx'
 import './index.css'
 import store from './store.js'
 
-store.dispatch({ type: "account/deposit", payload: 500 })
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
